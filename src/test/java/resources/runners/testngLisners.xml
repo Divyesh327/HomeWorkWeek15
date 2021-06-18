@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="testsuite" verbose="1">
+    <listeners>
+        <listener class-name="com.mobile.xcart.customListner.CustomeListner">
+
+        </listener>
+    </listeners>
+    <test name="mobile.x-cart.com Test">
+        <classes>
+            <class name="com.mobile.xcart.testSuite.ComingSoonTest"></class>
+            <class name="com.mobile.xcart.testSuite.HomePageTest"></class>
+            <class name="com.mobile.xcart.testSuite.ContactUsTest"></class>
+            <class name="com.mobile.xcart.testSuite.HotUkDealsBestSellersTest"></class>
+            <class name="com.mobile.xcart.testSuite.HotUkDealsSaleTest"></class>
+            <class name="com.mobile.xcart.testSuite.ShippingTest"></class>
+            <class name="com.mobile.xcart.testSuite.ShoppingTest"></class>
+            <class name="com.mobile.xcart.testSuite.NewPageTest"></class>
+
+
+        </classes>
+    </test>
+</suite>
